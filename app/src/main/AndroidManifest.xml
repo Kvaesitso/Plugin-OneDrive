@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".PluginApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KvaesitsoOneDrivePlugin"
+        tools:targetApi="34">
+
+        <meta-data
+            android:name="de.mm20.launcher2.plugin.label"
+            android:value="@string/plugin_package_name" />
+        <meta-data
+            android:name="de.mm20.launcher2.plugin.author"
+            android:value="MM2-0" />
+        <meta-data
+            android:name="de.mm20.launcher2.plugin.description"
+            android:value="@string/plugin_description" />
+
+        <activity
+            android:name="com.microsoft.identity.client.BrowserTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="${applicationId}"
+                    android:scheme="msauth" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="de.mm20.launcher2.action.PLUGIN_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SignInActivity" android:exported="false" android:theme="@android:style/Theme.NoDisplay" />
+
+        <provider
+            android:name=".OneDriveFileSearchProvider"
+            android:authorities="de.mm20.launcher2.plugin.onedrive.files"
+            android:exported="true"
+            android:icon="@drawable/ic_onedrive"
+            android:label="@string/plugin_name"
+            android:permission="de.mm20.launcher2.permission.USE_PLUGINS">
+            <intent-filter>
+                <action android:name="de.mm20.launcher2.action.PLUGIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="de.mm20.launcher2.plugin.description"
+                android:value="@string/plugin_description" />
+        </provider>
+
+    </application>
+
+</manifest>

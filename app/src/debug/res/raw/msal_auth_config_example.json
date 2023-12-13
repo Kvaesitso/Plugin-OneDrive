@@ -1,0 +1,15 @@
+{
+  "client_id" : "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+  "authorization_user_agent" : "DEFAULT",
+  "account_mode": "SINGLE",
+  "redirect_uri" : "msauth://de.mm20.launcher2.plugin.onedrive/xxxxxxxxxxxxxxxxxx",
+  "authorities" : [
+    {
+      "type": "AAD",
+      "audience": {
+        "type": "AzureADandPersonalMicrosoftAccount",
+        "tenant_id": "common"
+      }
+    }
+  ]
+}
