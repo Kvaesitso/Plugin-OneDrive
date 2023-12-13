@@ -68,7 +68,7 @@ class OneDriveFileSearchProvider : FileProvider() {
             return PluginState.Ready("Search ${account.displayName ?: account.username}'s files on OneDrive")
         }
         return PluginState.SetupRequired(
-            setupActivity = Intent(context, SignInActivity::class.java),
+            setupActivity = Intent(context, SettingsActivity::class.java),
             message = "Sign in with your Microsoft account in order to use this plugin."
         )
     }
