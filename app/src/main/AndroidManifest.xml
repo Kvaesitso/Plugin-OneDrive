@@ -52,15 +52,17 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".SignInActivity" android:exported="false" android:theme="@android:style/Theme.NoDisplay" />
+        <activity
+            android:name=".SignInActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.NoDisplay" />
 
         <provider
             android:name=".OneDriveFileSearchProvider"
             android:authorities="de.mm20.launcher2.plugin.onedrive.files"
             android:exported="true"
             android:icon="@drawable/ic_onedrive"
-            android:label="@string/plugin_name"
-            android:permission="de.mm20.launcher2.permission.USE_PLUGINS">
+            android:label="@string/plugin_name">
             <intent-filter>
                 <action android:name="de.mm20.launcher2.action.PLUGIN" />
                 <category android:name="android.intent.category.DEFAULT" />
