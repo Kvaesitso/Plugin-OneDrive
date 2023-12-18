@@ -3,6 +3,7 @@ package de.mm20.launcher2.plugin.onedrive
 import android.content.Intent
 import android.net.Uri
 import com.microsoft.graph.models.DriveItem
+import de.mm20.launcher2.plugin.config.SearchPluginConfig
 import de.mm20.launcher2.sdk.PluginState
 import de.mm20.launcher2.sdk.files.File
 import de.mm20.launcher2.sdk.files.FileDimensions
@@ -11,7 +12,9 @@ import de.mm20.launcher2.sdk.files.FileProvider
 import kotlinx.coroutines.flow.firstOrNull
 import org.koin.android.ext.android.inject
 
-class OneDriveFileSearchProvider : FileProvider() {
+class OneDriveFileSearchProvider : FileProvider(
+    SearchPluginConfig()
+) {
     private val client: MicrosoftApiClient by inject()
 
     override suspend fun get(id: String): File? {
