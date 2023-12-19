@@ -180,9 +180,7 @@ class SettingsActivity : AppCompatActivity() {
                             .padding(end = ButtonDefaults.IconSpacing)
                             .size(ButtonDefaults.IconSize),
                     )
-                    Text(
-                        "Sign out",
-                    )
+                    Text(stringResource(R.string.sign_in_button))
                 }
             }
         }
@@ -241,7 +239,7 @@ class SettingsActivity : AppCompatActivity() {
                     .size(ButtonDefaults.IconSize),
             )
             Text(
-                "Sign in with Microsoft",
+                stringResource(R.string.sign_in_button),
             )
         }
     }
