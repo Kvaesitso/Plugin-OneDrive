@@ -17,10 +17,12 @@ the [Microsoft Azure Portal](https://portal.azure.com/).
     1. Add a new registration
         1. Supported account types: Accounts in any organizational directory and personal Microsoft
            accounts
+        1. Leave "Redirect URI" empty
 1. Add an authentication platform
     1. Go to Authentication
     1. Add a platform > Android
-    1. Enter the debug package name (de.mm20.launcher2.plugin.onedrive) and the signature hash of your debug
+    1. Enter the debug package name (de.mm20.launcher2.plugin.onedrive) and the signature hash of
+       your debug
        key
         1. You can use the following command to generate the signature hash:
            `keytool -exportcert -alias androiddebugkey -keystore ~/.android/debug.keystore | openssl sha1 -binary | openssl base64`
