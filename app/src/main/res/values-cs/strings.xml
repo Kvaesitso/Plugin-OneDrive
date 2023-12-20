@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="plugin_state_ready">Hledat soubory uživatele %1$s na OneDrive.</string>
+    <string name="plugin_name">OneDrive</string>
+    <string name="sign_in_button">Přihlásit se s účtem Microsoft</string>
+    <string name="sign_out_button">Odhlásit se</string>
+    <string name="plugin_description">Hledat soubory na OneDrive</string>
+    <string name="plugin_state_login_required">Přihlaste se se svým účtem Microsoft, abyste mohli používat tento doplněk.</string>
+    <string name="app_name">Doplněk Kvaesitso pro OneDrive</string>
+    <string name="plugin_package_name">Integrace s OneDrive</string>
+</resources>
