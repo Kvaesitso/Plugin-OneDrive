@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Kvaesitso bővítmény a OneDrive-hoz</string>
+    <string name="plugin_package_name">OneDrive integráció</string>
+    <string name="plugin_name">OneDrive</string>
+    <string name="plugin_description">Fájlok keresése a OneDrive-on</string>
+    <string name="plugin_state_login_required">A bővítmény használatához jelentkezz be a Microsoft fiókodba.</string>
+    <string name="plugin_state_ready">Keressen a(z) %1$s fájljaid között a OneDrive-on.</string>
+    <string name="sign_in_button">Jelentkezzen be a Microsoft-al</string>
+    <string name="sign_out_button">Kijelentkezés</string>
+</resources>
