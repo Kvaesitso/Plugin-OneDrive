@@ -50,7 +50,7 @@ the [Microsoft Azure Portal](https://portal.azure.com/).
 This plugin is licensed under the Apache License 2.0.
 
 ```
-Copyright 2023-2024 MM2-0 and the Kvaesitso contributors
+Copyright 2023 MM2-0 and the Kvaesitso contributors
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
