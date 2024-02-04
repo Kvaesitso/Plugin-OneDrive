@@ -32,7 +32,7 @@ the [Microsoft Azure Portal](https://portal.azure.com/).
 1. Download the client details
     1. In the debug client row, click on View
     1. Copy the JSON below MSAL Configuration
-       to `ms-services/src/debug/res/raw/msal_auth_config.json` (you need to create this file
+       to `app/src/debug/res/raw/msal_auth_config.json` (you need to create this file
        first)
     1. Add `"account_mode": "SINGLE"` to the JSON (see the provided `msal_auth_config_example.json`)
 1. Repeat the previous step for the release config

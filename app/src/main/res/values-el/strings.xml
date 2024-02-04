@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Πρόσθετο Kvaesitso για OneDrive</string>
+    <string name="plugin_package_name">Ενσωμάτωση OneDrive</string>
+    <string name="plugin_name">OneDrive</string>
+    <string name="plugin_description">Αναζήτηση αρχείων στο OneDrive</string>
+    <string name="plugin_state_login_required">Συνδεθείτε με τον λογαριασμό σας Microsoft για να χρησιμοποιήσετε αυτήν την προσθήκη.</string>
+    <string name="sign_in_button">Σύνδεση με Microsoft</string>
+    <string name="sign_out_button">Αποσύνδεση</string>
+</resources>

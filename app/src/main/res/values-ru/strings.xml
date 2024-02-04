@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Плагин Kvaesitso для OneDrive</string>
+    <string name="plugin_state_login_required">Чтобы использовать этот плагин, войдите в свою учётную запись Майкрософт.</string>
+    <string name="plugin_package_name">Интеграция с OneDrive</string>
+    <string name="plugin_name">OneDrive</string>
+    <string name="plugin_description">Поиск файлов в OneDrive</string>
+    <string name="plugin_state_ready">Искать файлы %1$s на OneDrive.</string>
+    <string name="sign_in_button">Войти в Майкрософт</string>
+    <string name="sign_out_button">Выйти</string>
+</resources>
