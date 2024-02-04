@@ -18,6 +18,10 @@
         tools:targetApi="34">
 
         <meta-data
+            android:name="de.mm20.launcher2.plugin.icon"
+            android:resource="@drawable/ic_onedrive" />
+
+        <meta-data
             android:name="de.mm20.launcher2.plugin.label"
             android:value="@string/plugin_package_name" />
         <meta-data
