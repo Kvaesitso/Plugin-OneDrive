@@ -22,6 +22,7 @@ class OneDriveFileSearchProvider : FileProvider(
     }
 
     override suspend fun search(query: String, allowNetwork: Boolean): List<File> {
+        if (!allowNetwork) return emptyList()
         val driveItems = client.queryOneDriveFiles(query) ?: return emptyList()
         return driveItems.mapNotNull {
             File(
