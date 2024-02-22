@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="sign_in_button">Initiar session con Microsoft</string>
+    <string name="plugin_name">OneDrive</string>
+    <string name="plugin_state_ready">Cercar files de %1$s in OneDrive.</string>
+    <string name="plugin_description">Cercar files in OneDrive</string>
+</resources>
