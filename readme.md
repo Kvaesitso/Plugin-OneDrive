@@ -2,10 +2,6 @@
 
 This plugin allows you to search for files in your OneDrive account.
 
-> [!IMPORTANT]  
-> Plugins are a preview feature and are currently only available
-> in [Kvaesitso Nightly](https://fdroid.mm20.de/app/de.mm20.launcher2.nightly)
-
 ## Building
 
 To build this plugin, you need to setup a new project in
