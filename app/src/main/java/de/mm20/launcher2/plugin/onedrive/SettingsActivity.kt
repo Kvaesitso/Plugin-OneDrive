@@ -180,7 +180,7 @@ class SettingsActivity : AppCompatActivity() {
                             .padding(end = ButtonDefaults.IconSpacing)
                             .size(ButtonDefaults.IconSize),
                     )
-                    Text(stringResource(R.string.sign_in_button))
+                    Text(stringResource(R.string.sign_out_button))
                 }
             }
         }
