@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Kvaesitso Udvidelse til OneDrive</string>
-    <string name="plugin_package_name">OneDrive integration</string>
+    <string name="plugin_package_name">OneDrive-integration</string>
     <string name="plugin_name">OneDrive</string>
     <string name="plugin_description">Søg i filer på OneDrive</string>
     <string name="plugin_state_ready">Søg i %1$s\'s filer på OneDrive.</string>
