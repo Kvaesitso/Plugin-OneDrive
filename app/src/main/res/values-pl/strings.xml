@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="plugin_description">Szukaj plików na OneDrive</string>
+    <string name="app_name">Plugin Kvaesitso dla OneDrive</string>
+    <string name="plugin_package_name">Integracja OneDrive</string>
+    <string name="plugin_name">OneDrive</string>
+</resources>
