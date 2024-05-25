@@ -4,7 +4,7 @@
     <string name="plugin_package_name">Integración con OneDrive</string>
     <string name="sign_in_button">Iniciar sesión con Microsoft</string>
     <string name="plugin_state_ready">Busca los archivos de %1$s en OneDrive.</string>
-    <string name="sign_out_button">Cerrar sesion</string>
+    <string name="sign_out_button">Cerrar sesión</string>
     <string name="plugin_state_login_required">Inicie sesión con su cuenta de Microsoft para utilizar este plugin.</string>
     <string name="plugin_description">Buscar archivos en OneDrive</string>
     <string name="plugin_name">OneDrive</string>
