@@ -2,7 +2,7 @@
 <resources>
     <string name="plugin_state_login_required">Inicieu la sessió amb el vostre compte de Microsoft per utilitzar aquest connector.</string>
     <string name="app_name">Connector Kvaesitso per a OneDrive</string>
-    <string name="plugin_package_name">Integració de OneDrive</string>
+    <string name="plugin_package_name">Integració OneDrive</string>
     <string name="plugin_name">OneDrive</string>
     <string name="plugin_description">Cerca fitxers a OneDrive</string>
     <string name="plugin_state_ready">Cerca els fitxers %1$s a OneDrive.</string>
