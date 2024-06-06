@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="plugin_name">OneDrive</string>
+    <string name="plugin_description">ค้นหาไฟล์บน OneDrive</string>
+    <string name="plugin_state_ready">ค้นหาไฟล์ของ %1$s บน OneDrive</string>
+    <string name="sign_in_button">ลงชื่อเข้าใช้กับ Microsoft</string>
+    <string name="sign_out_button">ออกจากระบบ</string>
+    <string name="app_name">ปลั๊กอิน Kvaesitso สำหรับ OneDrive</string>
+    <string name="plugin_package_name">ตัวเชื่อมต่อกับ OneDrive</string>
+    <string name="plugin_state_login_required">ลงชื่อเข้าใช้ด้วยบัญชี Microsoft ของคุณเพื่อใช้ปลั๊กอินนี้</string>
+</resources>
