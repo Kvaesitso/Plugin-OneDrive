@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Kvaesitso Udvidelse til OneDrive</string>
+    <string name="plugin_package_name">OneDrive-integration</string>
+    <string name="plugin_name">OneDrive</string>
+    <string name="plugin_description">Søg i filer på OneDrive</string>
+    <string name="plugin_state_ready">Søg i %1$s\'s filer på OneDrive.</string>
+    <string name="sign_in_button">Log ind med Microsoft</string>
+    <string name="sign_out_button">Log ud</string>
+    <string name="plugin_state_login_required">Log ind med din Microsoft-konto for at bruge denne udvidelse.</string>
+</resources>

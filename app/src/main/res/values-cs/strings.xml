@@ -7,5 +7,5 @@
     <string name="plugin_description">Hledat soubory na OneDrive</string>
     <string name="plugin_state_login_required">Přihlaste se se svým účtem Microsoft, abyste mohli používat tento doplněk.</string>
     <string name="app_name">Doplněk Kvaesitso pro OneDrive</string>
-    <string name="plugin_package_name">Integrace s OneDrive</string>
+    <string name="plugin_package_name">Integrace OneDrive</string>
 </resources>
