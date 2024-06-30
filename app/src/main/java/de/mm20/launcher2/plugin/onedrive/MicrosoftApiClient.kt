@@ -202,18 +202,23 @@ class MicrosoftApiClient(
     suspend fun queryOneDriveFiles(query: String): List<DriveItem>? {
         refreshToken()
         return withContext(Dispatchers.IO) {
-            client.me()
-                .drive()
-                .search(
-                    DriveSearchParameterSet.newBuilder()
-                        .withQ(query)
-                        .build()
-                )
-                .buildRequest()
-                .select("id,name,file,folder,size,video,image,webUrl,shared,createdBy,parentReference")
-                .top(10)
-                .get()
-                ?.currentPage
+            try {
+                client.me()
+                    .drive()
+                    .search(
+                        DriveSearchParameterSet.newBuilder()
+                            .withQ(query)
+                            .build()
+                    )
+                    .buildRequest()
+                    .select("id,name,file,folder,size,video,image,webUrl,shared,createdBy,parentReference")
+                    .top(10)
+                    .get()
+                    ?.currentPage
+            } catch (e: Exception) {
+                Log.e("OneDrivePlugin", "Failed to search OneDrive", e)
+                null
+            }
         }
     }
 

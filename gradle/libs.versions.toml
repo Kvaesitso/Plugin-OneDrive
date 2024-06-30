@@ -1,31 +1,30 @@
 [versions]
 agp = "8.4.2"
-kotlin = "1.9.21"
+kotlin = "2.0.0"
 
 kotlinSerialization = "1.6.2"
 
-coreKtx = "1.12.0"
-appcompat = "1.6.1"
-activity = "1.9.0-alpha01"
-lifecycle = "2.7.0-rc01"
-datastore = "1.1.0-alpha07"
+coreKtx = "1.13.1"
+appcompat = "1.7.0"
+activity = "1.9.0"
+lifecycle = "2.8.2"
+datastore = "1.1.1"
 
-compose = "1.6.0-beta02"
-composeCompiler = "1.5.6"
-composeMaterial3 = "1.2.0-alpha12"
+compose = "1.6.8"
+composeMaterial3 = "1.3.0-beta04"
 
-msal = "4.10.0"
+msal = "5.4.0"
 graph = "5.77.0"
-guava = "32.1.3-android"
+guava = "33.1.0-android"
 koin = "3.5.0"
 coil = "2.3.0"
 
-launcherSdk = "1.0.0"
+launcherSdk = "2.0.1"
 
 
 [libraries]
 launchersdk = { group = "de.mm20.launcher2", name = "plugin-sdk", version.ref = "launcherSdk" }
-microsoft-msal = { group = "com.microsoft.identity.client", name = "msal", version.ref = "msal" }
+microsoft-msal = { group = "com.microsoft.identity.client",     name = "msal", version.ref = "msal" }
 microsoft-graph = { group = "com.microsoft.graph", name = "microsoft-graph", version.ref = "graph" }
 guava = { group = "com.google.guava", name = "guava", version.ref = "guava" }
 koin = { group = "io.insert-koin", name = "koin-android", version.ref = "koin" }
@@ -46,4 +45,5 @@ coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coi
 androidApplication = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 
