@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="plugin_state_login_required">Đăng nhập bằng tài khoản Microsoft của bạn để sử dụng plugin này.</string>
+    <string name="plugin_state_ready">Tìm kiếm tệp của %1$s trên OneDrive.</string>
+    <string name="sign_in_button">Đăng nhập bằng Microsoft</string>
+    <string name="sign_out_button">Đăng xuất</string>
+    <string name="plugin_package_name">Tích hợp OneDrive</string>
+    <string name="plugin_description">Tìm kiếm tệp tin trên OneDrive</string>
+</resources>
