@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="plugin_package_name">Integrare OneDrive</string>
+    <string name="plugin_name">OneDrive</string>
+    <string name="plugin_description">Caută fişiere în OneDrive</string>
+    <string name="plugin_state_ready">Căutați fişierele lui %1$s din OneDrive.</string>
+    <string name="sign_in_button">Conectați-vă cu Microsoft</string>
+    <string name="sign_out_button">Deconectați-vă</string>
+    <string name="app_name">Plugin Kvaesitso pentru OneDrive</string>
+    <string name="plugin_state_login_required">Conectați-vă cu contul dvs. Microsoft pentru a utiliza acest plugin.</string>
+</resources>
