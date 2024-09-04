@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="plugin_state_login_required">登录你的 Microsoft 账号来使用此插件.</string>
+    <string name="app_name">Kvaesitso OneDrive 插件</string>
+    <string name="plugin_package_name">OneDrive 集成</string>
+    <string name="plugin_name">OneDrive</string>
+    <string name="plugin_description">在 OneDrive 上搜索文件</string>
+    <string name="plugin_state_ready">在 OneDrive 上搜索 %1$s 的文件.</string>
+    <string name="sign_in_button">使用 Microsoft 登录</string>
+    <string name="sign_out_button">登出</string>
+</resources>
