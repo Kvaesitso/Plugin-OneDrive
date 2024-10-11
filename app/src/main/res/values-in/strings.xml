@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Plugin Kvaesitso untuk OneDrive</string>
+    <string name="plugin_package_name">Integrasi OneDrive</string>
+    <string name="plugin_name">OneDrive</string>
+    <string name="plugin_description">Mencari file di OneDrive</string>
+    <string name="plugin_state_login_required">Masuk dengan akun Microsoft Anda untuk menggunakan plugin ini.</string>
+    <string name="plugin_state_ready">Cari file %1$s di OneDrive.</string>
+</resources>
