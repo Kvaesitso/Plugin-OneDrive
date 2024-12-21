@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Plugin do Kvaesitso para o OneDrive</string>
+    <string name="plugin_state_login_required">Faça login com sua conta Microsoft para utilizar esse plugin.</string>
+    <string name="plugin_package_name">Integração ao OneDrive</string>
+    <string name="plugin_name">OneDrive</string>
+    <string name="plugin_description">Procure arquivos no OneDrive</string>
+    <string name="plugin_state_ready">Procure arquivos do %1$s no OneDrive.</string>
+    <string name="sign_in_button">Faça login com sua conta Microsoft</string>
+    <string name="sign_out_button">Logout</string>
+</resources>
