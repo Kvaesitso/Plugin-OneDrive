@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="plugin_package_name">OneDrive integrazioa</string>
+    <string name="plugin_name">OneDrive</string>
+    <string name="plugin_description">OneDrive-n fitxategiak bilatu</string>
+    <string name="sign_out_button">Saioa itxi</string>
+</resources>
