@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">إضافة Kvaesitso ل OneDrive</string>
-    <string name="plugin_package_name">دمج OneDrive</string>
+    <string name="plugin_package_name">دمج وان درايف</string>
     <string name="plugin_name">ون درايف</string>
-    <string name="plugin_description">بحث في الملفات على OneDrive</string>
+    <string name="plugin_description">بحث في الملفات على وان درايف</string>
     <string name="plugin_state_login_required">سجّل الدخول باستخدام حساب Microsoft الخاص بك لاستخدام هذه الإضافة.</string>
     <string name="plugin_state_ready">ابحث عن ملفات %1$s على OneDrive.</string>
     <string name="sign_in_button">تسجيل الدخول باستخدام مايكروسوفت</string>
