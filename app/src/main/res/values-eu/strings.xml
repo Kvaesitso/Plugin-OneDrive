@@ -4,4 +4,5 @@
     <string name="plugin_name">OneDrive</string>
     <string name="plugin_description">OneDrive-n fitxategiak bilatu</string>
     <string name="sign_out_button">Saioa itxi</string>
+    <string name="plugin_state_ready">%1$s-(r)en fitxategiak OneDrive-n bilatu.</string>
 </resources>
