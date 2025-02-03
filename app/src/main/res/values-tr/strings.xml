@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">OneDrive için Kvaesitso Eklentisi</string>
+    <string name="plugin_package_name">OneDrive entegrasyonu</string>
+    <string name="plugin_name">OneDrive</string>
+    <string name="plugin_description">OneDrive\'da dosya ara</string>
+    <string name="plugin_state_login_required">Bu eklentiyi kullanabilmek için Microsoft hesabınızla giriş yapın.</string>
+    <string name="plugin_state_ready">OneDrive\'da %1$s kullanıcısının dosyalarını ara.</string>
+    <string name="sign_in_button">Microsoft ile Giriş Yapın</string>
+    <string name="sign_out_button">Çıkış Yap</string>
+</resources>
