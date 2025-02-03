@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">適用於 OneDrive 的 Kvaesitso 外掛程式</string>
+    <string name="plugin_package_name">OneDrive 整合</string>
+    <string name="plugin_name">OneDrive</string>
+    <string name="plugin_description">在 OneDrive 上搜尋檔案</string>
+    <string name="plugin_state_login_required">登入您的 Microsoft 帳號來使用此外掛程式。</string>
+    <string name="plugin_state_ready">在 OneDrive 上搜尋 %1$s 的檔案。</string>
+    <string name="sign_in_button">使用 Microsoft 登入</string>
+    <string name="sign_out_button">登出</string>
+</resources>
