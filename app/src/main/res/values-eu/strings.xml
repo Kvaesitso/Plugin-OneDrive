@@ -5,4 +5,7 @@
     <string name="plugin_description">OneDrive-n fitxategiak bilatu</string>
     <string name="sign_out_button">Saioa itxi</string>
     <string name="plugin_state_ready">%1$s-(r)en fitxategiak OneDrive-n bilatu.</string>
+    <string name="app_name">Kvaesitso plugina OneDrive-rako</string>
+    <string name="plugin_state_login_required">Microsoft kontuan saioa hasi plugin hau erabiltzeko.</string>
+    <string name="sign_in_button">Microsoft-en saioa hasi</string>
 </resources>
