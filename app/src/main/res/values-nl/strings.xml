@@ -2,7 +2,7 @@
 <resources>
     <string name="plugin_package_name">OneDrive-integratie</string>
     <string name="plugin_name">OneDrive</string>
-    <string name="plugin_description">Zoeken op OneDrive</string>
+    <string name="plugin_description">Bestanden zoeken op OneDrive</string>
     <string name="plugin_state_login_required">Meld je aan met je Microsoft-account om deze plug-in te gebruiken.</string>
     <string name="sign_in_button">Aanmelden bij Microsoft</string>
     <string name="sign_out_button">Afmelden</string>
