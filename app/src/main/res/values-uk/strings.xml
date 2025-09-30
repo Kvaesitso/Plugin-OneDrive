@@ -6,5 +6,5 @@
     <string name="plugin_description">Пошук файлів у OneDrive</string>
     <string name="plugin_state_login_required">Увійдіть у свій обліковий запис Microsoft, щоб використовувати цей плагін.</string>
     <string name="plugin_state_ready">Шукати файли %1$s у OneDrive.</string>
-    <string name="sign_in_button">Зайти в обліковий запис Microsoft</string>
+    <string name="sign_in_button">Увійти в обліковий запис Microsoft</string>
 </resources>
