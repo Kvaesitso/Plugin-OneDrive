@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="plugin_name">OneDrive</string>
+    <string name="app_name">Плагін Kvaesitso для OneDrive</string>
+    <string name="plugin_package_name">Інтеграція OneDrive</string>
+    <string name="plugin_description">Пошук файлів у OneDrive</string>
+    <string name="plugin_state_login_required">Увійдіть у свій обліковий запис Microsoft, щоб використовувати цей плагін.</string>
+    <string name="plugin_state_ready">Шукати файли %1$s у OneDrive.</string>
+    <string name="sign_in_button">Зайти в обліковий запис Microsoft</string>
 </resources>
