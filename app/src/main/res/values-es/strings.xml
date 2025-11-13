@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Plugin para Kvaesitso de OneDrive</string>
+    <string name="app_name">Plugin de Kvaesitso para OneDrive</string>
     <string name="plugin_package_name">Integración con OneDrive</string>
     <string name="sign_in_button">Iniciar sesión con Microsoft</string>
     <string name="plugin_state_ready">Busca los archivos de %1$s en OneDrive.</string>
