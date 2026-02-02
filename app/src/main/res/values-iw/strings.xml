@@ -3,4 +3,6 @@
     <string name="plugin_package_name">אינטגרציית OneDrive</string>
     <string name="plugin_name">וואן דרייב (OneDrive)</string>
     <string name="app_name">תוסף Kvaesitso ל-OneDrive</string>
+    <string name="plugin_description">חיפוש קבצים ב-OneDrive</string>
+    <string name="plugin_state_login_required">כניסה עם חשבון Microsoft שלך לשימוש בתוסף זה.</string>
 </resources>
