@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Убудова OneDrive для Kvaesitso</string>
+    <string name="plugin_package_name">Інтэграцыя OneDrive</string>
+    <string name="plugin_name">OneDrive</string>
+    <string name="plugin_description">Шукай файлы ў OneDrive</string>
+    <string name="plugin_state_login_required">Увайдзі з тваім уліковым запісам Microsoft, каб карыстацца гэтай убудовай.</string>
+    <string name="plugin_state_ready">Шукаць файлы %1$s на OneDrive.</string>
+    <string name="sign_in_button">Увайсці з дапамогай Microsoft</string>
+    <string name="sign_out_button">Выйсці</string>
 </resources>
