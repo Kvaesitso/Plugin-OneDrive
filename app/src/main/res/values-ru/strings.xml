@@ -6,6 +6,6 @@
     <string name="plugin_name">OneDrive</string>
     <string name="plugin_description">Поиск файлов в OneDrive</string>
     <string name="plugin_state_ready">Искать файлы %1$s на OneDrive.</string>
-    <string name="sign_in_button">Войти в Майкрософт</string>
+    <string name="sign_in_button">Войти с учёткой Майкрософт</string>
     <string name="sign_out_button">Выйти</string>
 </resources>
