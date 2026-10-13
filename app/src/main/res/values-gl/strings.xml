@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Complemento Kvaesitso para OneDrive</string>
+    <string name="plugin_package_name">Integración con OneDrive</string>
+    <string name="plugin_name">OneDrive</string>
+    <string name="plugin_description">Busca de ficheiros en OneDrive</string>
+    <string name="plugin_state_login_required">Inicia sesión coa túa conta de Microsoft para usar este complemento.</string>
+    <string name="plugin_state_ready">Busca os ficheiros de %1$s en OneDrive.</string>
+    <string name="sign_in_button">Inicia sesión con Microsoft</string>
+    <string name="sign_out_button">Pechar sesión</string>
 </resources>
